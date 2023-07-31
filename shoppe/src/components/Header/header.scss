@@ -18,9 +18,19 @@ $gray: #707070;
 }
 .header {
   max-width: 1440px;
+  margin: 0 auto;
   &__content {
+    padding: 64px 0px 16px;
+
     @extend %for-flex;
     &-logo {
+      cursor: pointer;
+      transition: 0.5s;
+
+      :hover {
+        transition: 0.5s;
+        opacity: 0.8;
+      }
     }
     &-nav {
       @extend %for-flex;
@@ -30,12 +40,23 @@ $gray: #707070;
       column-gap: 64px;
     }
     &-category {
+      @extend %for-text;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        transition: 0.3s;
+        opacity: 0.8;
+      }
     }
     &-span {
+      text-transform: uppercase;
+      display: flex;
+      align-self: center;
       padding: 0 48px;
       color: #707070;
       width: 1px;
-      height: 17px;
+      height: 21px;
     }
     &-icons {
       display: flex;
@@ -43,4 +64,9 @@ $gray: #707070;
       column-gap: 39px;
     }
   }
+}
+.icon__img {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
