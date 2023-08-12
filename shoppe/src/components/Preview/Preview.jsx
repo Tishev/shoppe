@@ -1,7 +1,7 @@
 import '../Preview/preview.scss';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import AdjustIcon from '@mui/icons-material/Adjust';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 const Preview = () => {
   //   const [countries, setCountries] = useState([]);
   //   const [loading, setLoading] = useState(false);

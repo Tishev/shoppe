@@ -1,5 +1,5 @@
 import '../Main/main.scss';
-import { ItemsImg } from '../UI/ItemsImg';
+// import { ItemsImg } from '../UI/ItemsImg';
 import LiraEarrings from '../img/main/LiraEarrings.png';
 import HalEarrings from '../img/main/HalEarrings.png';
 import KaedeHairPinSetOf3 from '../img/main/KaedeHairPinSetOf3.png';
@@ -7,9 +7,9 @@ import HairPinSetof3 from '../img/main/HairPinSetof3.png';
 import PlaineNecklace from '../img/main/PlaineNecklace.png';
 import YukiHairPinSetof3 from '../img/main/YukiHairPinSetof3.png';
 import React from 'react';
-import cart from '../img/main/cart.svg';
-import eye from '../img/main/eye.svg';
-import heart from '../img/main/heart.svg';
+// import cart from '../img/main/cart.svg';
+// import eye from '../img/main/eye.svg';
+// import heart from '../img/main/heart.svg';
 import { useState } from 'react';
 import Item from '../UI/Item';
 
