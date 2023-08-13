@@ -1,0 +1,115 @@
+.shop__item {
+  margin-top: 140px;
+}
+
+.shop__item-content {
+  display: flex;
+}
+
+.shop__ul {
+  margin-right: 40px;
+  row-gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop__li img {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.shop__img {
+  margin-right: 64px;
+
+  width: 540px;
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.shop__description {
+}
+.shop__description-title {
+  margin-bottom: 23px;
+  color: var(--light-colors-black-light, #000);
+  font-family: DM Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.shop__description-price {
+  margin-bottom: 70px;
+  color: var(--light-colors-accent-light, #a18a68);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+  text-transform: capitalize;
+}
+
+.shop__description-text {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  color: var(--light-colors-dark-gray-light, #707070);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.shop__description-addtocart {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.shop__description-socials {
+  margin-top: 80px;
+  column-gap: 15px;
+  display: flex;
+}
+.counter {
+  color: var(--light-colors-dark-gray-light, #707070);
+  /* 16px - Heading 5 */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 14px 16px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 53px;
+  border-radius: 4px;
+  background: var(--light-colors-light-gray-light, #efefef);
+}
+.descr__counter {
+  cursor: pointer;
+}
+.footer__bottom-icons {
+  cursor: pointer;
+  transition: scale 500ms ease;
+}
+.footer__bottom-icons:hover {
+  scale: (1.2);
+}
+.btn-addCart {
+  border-radius: 4px;
+  border: 1px solid var(--light-colors-black-light, #000);
+  background: var(--light-colors-white-light, #fff);
+  width: 360px;
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--light-colors-black-light, #000);
+}

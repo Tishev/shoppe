@@ -1,12 +1,12 @@
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
-import Lira from '../components/ShopItem/ShopItem';
+import ShopItem from '../components/ShopItem/ShopItem';
 
 const ShopItems = () => {
   return (
     <>
       <Header />
-      <Lira />
+      <ShopItem />
       <Footer />
     </>
   );
